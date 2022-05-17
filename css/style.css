@@ -26,10 +26,10 @@
     justify-content: space-between;
     flex-direction: column;
     
-    border: 1px solid;
+    border: 1px solid #0061ff;
     border-radius: 12px;
     
-    box-shadow: 1px 1px 10px 2px black;
+    /* box-shadow: 1px 1px 10px 2px #0061ff; */
     
     /* background: url(https://images.pexels.com/photos/1756325/pexels-photo-1756325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
     /* background-size: 100% 100%; */
@@ -77,14 +77,14 @@
     border: 2px solid #0061ff;
   }
   input:focus + span {
-      color: #0061ff;
+    color: #0061ff;
 
-      background-color: white;
+    background-color: white;
 
-      top: -8px;
-      left: 4px;
+    top: -8px;
+    left: 4px;
 
-      z-index: 2;
+    z-index: 2;
   }
   
   .buttom[type=submit] {
@@ -101,8 +101,8 @@
     background-color: #0061ff;
   }
   
-  .buttom[type=submit][type=submit]:hover {
-    transform: translateY(-2px);
+  .buttom[type=submit]:hover {
+    transform: translateY(-3px);
     
     background-color: #0062ff6c;
   }
