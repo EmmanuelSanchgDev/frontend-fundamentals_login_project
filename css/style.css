@@ -61,6 +61,7 @@
     background-color: transparent;
     border: 2px solid #DADCE0;
     border-radius: 8px;
+    outline: none;
 
     height: 40px;
 
@@ -70,9 +71,12 @@
   }
   input:focus {
     border: 2px solid #0061ff;
+
+  }
+  input:focus + span {
+    color: #0061ff;
   }
   input:focus + span, input:not(:placeholder-shown) + span {
-    color: #0061ff;
 
     background-color: white;
 
