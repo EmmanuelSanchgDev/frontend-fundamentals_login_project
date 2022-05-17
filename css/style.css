@@ -28,15 +28,10 @@
     
     border: 1px solid #0061ff;
     border-radius: 12px;
-    
-    /* box-shadow: 1px 1px 10px 2px #0061ff; */
-    
-    /* background: url(https://images.pexels.com/photos/1756325/pexels-photo-1756325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
-    /* background-size: 100% 100%; */
-    
   }
+
   .form .container {
-    height: 85%;
+    height: 80%;
 
     display: flex;
     flex-direction: column;
@@ -52,7 +47,7 @@
   
   .tag > span {
     position: absolute;
-    top: 14px;
+    top: 12px;
     left: 8px;
 
     color: #DADCE0;
@@ -64,8 +59,7 @@
 
   .tag > input {
     background-color: transparent;
-    /* border: 2px solid #DADCE0; */
-    border: none;
+    border: 2px solid #DADCE0;
     border-radius: 8px;
 
     height: 40px;
@@ -87,7 +81,19 @@
 
     z-index: 2;
   }
+
+  .buttom-container {
+    display: flex;
+    flex-direction: column;
+  }
   
+  .buttom-container a {
+    align-self: center;
+
+    text-decoration: none;
+    color: #0061ff;
+  }
+
   .buttom[type=submit] {
     height: 42px;
     
@@ -100,6 +106,8 @@
     color: white;
     
     background-color: #0061ff;
+
+    margin-bottom: 10px;
   }
   
   .buttom[type=submit]:hover {
