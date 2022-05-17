@@ -52,7 +52,7 @@
   
   .tag > span {
     position: absolute;
-    top: 12px;
+    top: 14px;
     left: 8px;
 
     color: #DADCE0;
@@ -64,7 +64,8 @@
 
   .tag > input {
     background-color: transparent;
-    border: 2px solid #DADCE0;
+    /* border: 2px solid #DADCE0; */
+    border: none;
     border-radius: 8px;
 
     height: 40px;
@@ -76,12 +77,12 @@
   input:focus {
     border: 2px solid #0061ff;
   }
-  input:focus + span {
+  input:focus + span, input:not(:placeholder-shown) + span {
     color: #0061ff;
 
     background-color: white;
 
-    top: -8px;
+    top: -9px;
     left: 4px;
 
     z-index: 2;
