@@ -16,20 +16,17 @@ body {
     place-items: center;
     
   }
-  form {
+  .form {
     width: 300px;
     height: 470px;
     padding: 20px;
-    
-    color: black;
-    font-size: 20px;
-    
+        
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     
-    border: 1px solid gray;
-    border-radius: 10px;
+    border: 1px solid;
+    border-radius: 12px;
     
     box-shadow: 1px 1px 10px 2px black;
     
@@ -37,50 +34,58 @@ body {
     /* background-size: 100% 100%; */
     
   }
-  form .container {
-    height: 90%;
+  .form .container {
+    height: 85%;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  label {
-    margin-bottom: 10px;
-
+  .tag {
     display: flex;
     flex-direction: column;
 
     position: relative;
   }
   
-  label > span {
-      /* display: none; */
-      position: absolute;
-      top: -20px
+  .tag > span {
+    /* display: none; */
+    position: absolute;
+    /* top: -20px */
+    top: 12px;
+    left: 8px;
+
+    color: gray;
   }
 
-  label > input {
-    background-color: rgba(255,255,255,0.3);
-    /* border: none; */
+  .tag > input {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+
     height: 40px;
+
+    padding: 0 8px;
 
   }
   
-  input[type=submit] {
+  .buttom[type=submit] {
     height: 42px;
     
     border: none;
+    border-radius: 12px;
     
     font-size: 20px;
     font-family: "Arial";
     font-weight: bold;
+    color: white;
     
-    background-color: #3CB2CA;
+    background-color: #0061ff;
   }
   
-  input[type=submit]:hover {
-    background-color: #44D5F2;
+  .buttom[type=submit][type=submit]:hover {
+    /* background-color: #; */
     
     color: white;
   }
