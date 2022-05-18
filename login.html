@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/login.css">
-    <link rel="shortcut icon" href="https://p7.hiclipart.com/preview/286/412/950/facebook-scalable-vector-graphics-icon-facebook-logo-png-thumbnail.jpg" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      rel="shortcut icon"
+      href="https://p7.hiclipart.com/preview/286/412/950/facebook-scalable-vector-graphics-icon-facebook-logo-png-thumbnail.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main class="main">
-        <form action="" class="form">
-            <div class="container container-login">
-                <label for="user" class="tag">
-                    <input type="text" required placeholder="user123" id="user" name="user">
-                    <span>Usuario O Email</span>
-                </label>
+      <form action="" class="form">
+        <div class="header">
+            <h1>Entrar</h1>
+        </div>
 
-                <label for="password" class="tag">
-                    <input type="password" required placeholder="Contraseña" id="password" name="password">
-                    <span>Contraseña</span>
-                </label>
-            </div>
-            <div class="buttom-container">
-                <input type="submit" class="buttom" value="Ingresar">
-                <a href="index.html">Registrarme</a>
-            </div>
-        </form>
+        <div class="container container-login">
+          <label for="user" class="tag">
+            <input
+              type="text"
+              required
+              placeholder="user123"
+              id="user"
+              name="user"
+            />
+            <span>Usuario O Email</span>
+          </label>
+
+          <label for="password" class="tag">
+            <input
+              type="password"
+              required
+              placeholder="Contraseña"
+              id="password"
+              name="password"
+            />
+            <span>Contraseña</span>
+          </label>
+        </div>
+
+        <figure class="container-redes">
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Iniciar con facebook"/>
+            </a>
+            <a href="#">
+                <img src="https://cdn-icons.flaticon.com/png/512/720/premium/720255.png?token=exp=1652835969~hmac=b7a8f04cc449729f881ecc670ed4aa90" alt="Iniciar con google">
+            </a>
+            <a href="#">
+                <img src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670151.png?token=exp=1652835939~hmac=2c99dceaacb92f4bf57959f7a431a50d" alt="Iniciar con twitter">
+            </a>
+        </figure>
+
+        <div class="buttom-container">
+          <input type="submit" class="buttom" value="Ingresar" />
+          <a href="index.html">Registrarme</a>
+        </div>
+      </form>
     </main>
-</body>
+  </body>
 </html>

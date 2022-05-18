@@ -7,10 +7,17 @@
     <title>Register</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="https://p7.hiclipart.com/preview/286/412/950/facebook-scalable-vector-graphics-icon-facebook-logo-png-thumbnail.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="main">
         <form action="" class="form">
+            <div class="header">
+                <h1>Registrarse</h1>
+            </div>
+            
             <div class="container">
                 <label for="name" class="tag">
                 <input type="text" required placeholder="Nombre" id="name" name="name">
@@ -23,7 +30,7 @@
                 </label>
 
                 <label for="email" class="tag">
-                    <input type="email" required placeholder="example@Email.com" id="name" name="email">
+                    <input type="email" required placeholder="example@Email.com" id="email" name="email">
                     <span>Email</span>
                 </label>
 
@@ -42,6 +49,19 @@
                     <span>Reingresa Contraseña</span>
                 </label>
             </div>
+
+            <figure class="container-redes">
+                <a href="#">
+                    <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Iniciar con facebook"/>
+                </a>
+                <a href="#">
+                    <img src="https://cdn-icons.flaticon.com/png/512/720/premium/720255.png?token=exp=1652835969~hmac=b7a8f04cc449729f881ecc670ed4aa90" alt="Iniciar con google">
+                </a>
+                <a href="#">
+                    <img src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670151.png?token=exp=1652835939~hmac=2c99dceaacb92f4bf57959f7a431a50d" alt="Iniciar con twitter">
+                </a>
+            </figure>
+
             <div class="buttom-container">
                 <input type="submit" class="buttom" value="Registrarme">
                 <a href="./login.html">Ingresar</a>
