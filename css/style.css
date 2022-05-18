@@ -1,155 +1,150 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-  /* font-family: 'Montserrat Alternates', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
 .main {
-    width: 100%;
-    height: 100vh;
-    
-    display: grid;
-    place-items: center;
-    
-  }
-  .form {
-    width: 300px;
-    height: 600px;
-    padding: 15px;
-        
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
-    border: 1px solid #0061ff;
-    border-radius: 12px;
-  }
-  
-  .header {
-    color: #0061ff;
-    font-weight: 400;
+  width: 100%;
+  height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+  display: grid;
+  place-items: center;
+}
+.form {
+  width: 300px;
+  height: 600px;
+  padding: 15px;
 
-  .form .container {
-    height: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+  border: 1px solid #0061ff;
+  border-radius: 12px;
+}
 
-  .tag {
-    display: flex;
-    flex-direction: column;
+.header {
+  color: #0061ff;
+  font-weight: 400;
 
-    position: relative;
-  }
-  
-  .tag > span {
-    position: absolute;
-    top: 12px;
-    left: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-    color: #DADCE0;
+.form .container {
+  height: 60%;
 
-    transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-    z-index: 0;
-  }
+.tag {
+  display: flex;
+  flex-direction: column;
 
-  .tag > input {
-    background-color: transparent;
-    border: 2px solid #DADCE0;
-    border-radius: 8px;
-    outline: none;
+  position: relative;
+}
 
-    height: 40px;
+.tag > span {
+  position: absolute;
+  top: 12px;
+  left: 8px;
 
-    padding: 0 8px;
+  color: #dadce0;
 
-    z-index: 1;
-  }
-  input:focus {
-    border: 2px solid #0061ff;
+  transition: 0.5s;
 
-  }
-  input:focus + span {
-    color: #0061ff;
-  }
-  input:focus + span, input:not(:placeholder-shown) + span {
+  z-index: 0;
+}
 
-    background-color: white;
+.tag > input {
+  background-color: transparent;
+  border: 2px solid #dadce0;
+  border-radius: 8px;
+  outline: none;
 
-    top: -9px;
-    left: 4px;
+  height: 40px;
 
-    z-index: 2;
-  }
+  padding: 0 8px;
 
-  .container-redes {
-    width: 100%;
-    height: 50px;
+  z-index: 1;
+}
+input:focus {
+  border: 2px solid #0061ff;
+}
+input:focus + span {
+  color: #0061ff;
+}
+input:focus + span,
+input:not(:placeholder-shown) + span {
+  background-color: white;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-    .container-redes a {
-      display: flex;
-      align-items: center;
+  top: -9px;
+  left: 4px;
 
-      height: 100%;
-    }
-    .container-redes img {
+  z-index: 2;
+}
 
-      height: 80%;
-      /* width: 50px; */
-    }
-      .container-redes a:hover {
-        transform: translateY(-3px);
-      }
-  .buttom-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .buttom-container a {
-    align-self: center;
+.container-redes {
+  width: 100%;
+  height: 50px;
 
-    text-decoration: none;
-    color: #0061ff;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-redes a {
+  display: flex;
+  align-items: center;
 
-  .buttom[type=submit] {
-    height: 42px;
-    
-    border: none;
-    border-radius: 12px;
-    
-    font-size: 20px;
-    font-family: "Arial";
-    font-weight: bold;
-    color: white;
-    
-    background-color: #0061ff;
+  height: 100%;
+}
+.container-redes img {
+  height: 80%;
+  /* width: 50px; */
+}
+.container-redes a:hover {
+  transform: translateY(-3px);
+}
+.buttom-container {
+  display: flex;
+  flex-direction: column;
+}
 
-    margin-bottom: 10px;
-  }
-  
-  .buttom[type=submit]:hover {
-    transform: translateY(-3px);
-    
-    background-color: #0062ff6c;
-  }
+.buttom-container a {
+  align-self: center;
+
+  text-decoration: none;
+  color: #0061ff;
+}
+
+.buttom[type="submit"] {
+  height: 42px;
+
+  border: none;
+  border-radius: 12px;
+
+  font-size: 20px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: white;
+
+  background-color: #0061ff;
+
+  margin-bottom: 10px;
+}
+
+.buttom[type="submit"]:hover {
+  transform: translateY(-3px);
+
+  background-color: #0062ff6c;
+}
 
 ::placeholder {
   color: transparent;
