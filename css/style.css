@@ -106,7 +106,7 @@ input:not(:placeholder-shown) + span {
   height: 100%;
 }
 .container-redes img {
-  height: 80%;
+  height: 90%;
   /* width: 50px; */
 }
 .container-redes a:hover {
