@@ -1,3 +1,6 @@
+.form {
+  height: 350px;
+}
 .form .container-login {
   justify-content: center;
 }

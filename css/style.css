@@ -145,6 +145,16 @@ input:not(:placeholder-shown) + span {
 
   background-color: #0062ff6c;
 }
+.footer {
+  text-align: center;
+  border-top: 1px solid black;
+  
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.footer p {
+  margin-bottom: 5px;
+}
 
 ::placeholder {
   color: transparent;
