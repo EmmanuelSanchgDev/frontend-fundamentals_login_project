@@ -7,8 +7,6 @@ body {
     width: 100vw;
     height: 100vh;
 
-    padding: 15px;
-
     background-color: rgb(0, 89, 255);
 
     display: flex;
@@ -24,15 +22,20 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.description {
+    padding: 20px;
+
+    text-align: center;
+}
 .title {
-    justify-content: flex-start;
     color: #eaebed;
+
+    font-size: 60px;
+    text-align: center;
 }
 .footer {
     width: 100%;
     height: 10%;
-
-    /* background-color: #caf0f8; */
 }
 .footer__refe {
     width: 100%;
@@ -40,7 +43,6 @@ body {
 
     display: flex;
     justify-content: center;
-
 }
 .footer__refe a {
     text-decoration: none;
@@ -58,5 +60,4 @@ body {
 .icon {
     height: 50%;
     margin-left: 5px;
-    
 }
