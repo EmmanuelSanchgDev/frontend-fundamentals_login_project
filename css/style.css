@@ -130,6 +130,7 @@ input:not(:placeholder-shown) + span {
 
   border: none;
   border-radius: 12px;
+  outline: none;
 
   font-size: 20px;
   font-family: "Arial";
