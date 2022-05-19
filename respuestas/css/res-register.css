@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.container h2 {
+.title {
     text-align: center;
 }
 .container-description {
