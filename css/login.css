@@ -7,3 +7,14 @@
 .form .container-login .tag:first-child {
   margin-bottom: 15px;
 }
+.forgot-password {
+  width: max-content;
+
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 10px;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}

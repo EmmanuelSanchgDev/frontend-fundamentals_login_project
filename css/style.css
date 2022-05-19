@@ -18,6 +18,7 @@ body {
   width: 300px;
   height: 600px;
   padding: 15px;
+  padding-top: 5px;
 
   display: flex;
   justify-content: space-between;
@@ -34,6 +35,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+
+  margin-bottom: 8px;
 }
 
 .form .container {
@@ -138,6 +141,8 @@ input:not(:placeholder-shown) + span {
   background-color: #0061ff;
 
   margin-bottom: 10px;
+
+  cursor: pointer;
 }
 
 .buttom[type="submit"]:hover {
