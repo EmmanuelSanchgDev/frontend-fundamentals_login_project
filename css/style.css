@@ -93,32 +93,29 @@ input:not(:placeholder-shown) + span {
   z-index: 2;
 }
 
-.container-redes {
-  width: 100%;
-  height: 50px;
-
+.genero {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
 }
-.container-redes a {
-  display: flex;
-  align-items: center;
 
-  height: 100%;
-}
-.container-redes img {
-  height: 90%;
-}
-.container-redes a:hover {
-  transform: translateY(-3px);
-}
 .buttom-container {
   display: flex;
   flex-direction: column;
 }
+.terminos {
+  text-align: center;
 
-.buttom-container a {
+  margin-bottom: 5px;
+}
+.terminos a {
+  text-decoration: none;
+  color: black;
+}
+.terminos a:hover {
+  text-decoration: underline;
+  color: #0061ff;
+}
+.buttom-container > a {
   align-self: center;
 
   text-decoration: none;
@@ -139,9 +136,11 @@ input:not(:placeholder-shown) + span {
 
   background-color: #0061ff;
 
-  margin-bottom: 10px;
-
   cursor: pointer;
+}
+
+.buttom-login {
+  margin-bottom: 5px;
 }
 
 .buttom[type="submit"]:hover {
@@ -158,6 +157,26 @@ input:not(:placeholder-shown) + span {
 }
 .footer p {
   margin-bottom: 5px;
+}
+.container-redes {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-redes a {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+}
+.container-redes img {
+  height: 90%;
+}
+.container-redes a:hover {
+  transform: translateY(-3px);
 }
 
 ::placeholder {

@@ -89,15 +89,32 @@
               placeholder="Contraseña"
               id="confirm-password"
               name="confirm-password"
+              minlength="12"
             />
             <span>Reingresa Contraseña</span>
           </label>
+
+          <div class="genero">
+            <label for="mujer">
+              <input type="radio" name="genero" id="mujer" required>
+              <span>Mujer</span>
+            </label>
+            <label for="hombre">
+              <input type="radio" name="genero" id="hombre" required>
+              <span>Hombre</span>
+            </label>
+          </div>
         </div>
 
         <div class="buttom-container">
           <input type="submit" class="buttom" value="Registrarme" />
+          <label for="terminos" class="terminos">
+            <input type="checkbox" name="acepta terminos y condiciones?" id="terminos" required>
+            <a href="#">Terminos & Condiciones</a>
+          </label>
           <a href="./login.html">Ingresar</a>
         </div>
+
 
         <div class="footer">
           <p>Registrarse con</p>
