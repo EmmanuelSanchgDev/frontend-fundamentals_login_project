@@ -29,6 +29,7 @@ body {
 
 .header {
   color: #0061ff;
+  text-align: center;
 
   display: flex;
   justify-content: center;

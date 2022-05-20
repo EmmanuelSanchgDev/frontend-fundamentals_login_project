@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/forgot.css" />
+    <link
+      rel="shortcut icon"
+      href="https://p7.hiclipart.com/preview/286/412/950/facebook-scalable-vector-graphics-icon-facebook-logo-png-thumbnail.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <form action="./respuestas/res-forgot.html" name="forgot-password" class="form">
+        <div class="header">
+          <h1>Recuperar Contraseña</h1>
+        </div>
+
+        <div class="container container-login container-forgot">
+          <p class="indication">ingresa el Email que Registraste</p>
+          <label for="user" class="tag">
+            <input
+              type="email"
+              required
+              placeholder="user123"
+              id="user"
+              name="user"
+            />
+            <span>Email</span>
+          </label>
+        </div>
+
+        <div class="buttom-container">
+          <input type="submit" class="buttom" value="Recuperar" />
+          <a href="./login.html">volver a login</a>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
