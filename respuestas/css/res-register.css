@@ -59,8 +59,9 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: white;
 }
 .link-login:hover {
+    color: black;
     text-decoration: underline;
 }
